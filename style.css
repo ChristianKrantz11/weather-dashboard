@@ -12,3 +12,11 @@
   text-align: center;
   width: 100%;
 }
+
+.card-deck {
+  justify-content: center;
+  text-align: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
