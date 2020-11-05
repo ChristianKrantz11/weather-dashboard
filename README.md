@@ -1,5 +1,5 @@
 # 06 Server-Side APIs: Weather Dashboard
-[Launch Weather Dashboard]()
+[Launch Weather Dashboard](https://christiankrantz11.github.io/weather-dashboard/)
 
 ## User Story
 
