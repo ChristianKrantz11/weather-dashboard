@@ -1,22 +1,44 @@
 .hide {
-  display: none;
-}
-.jumbotron {
-  display: inline-block;
-  padding-top: .3125rem;
-  padding-bottom: .3125rem;
-  margin-right: 1rem;
-  font-size: 36px;
-  line-height: inherit;
-  white-space: nowrap;
-  text-align: center;
-  width: 100%;
+  display: none !important;
 }
 
-.card-deck {
-  justify-content: center;
+.weather-icon {
+  width: 56px;
+  height: 56px;
+}
+
+.current-card .card-title {
+  margin-bottom: 0.25rem;
+}
+
+.current-card p {
+  margin-bottom: 0.5rem;
+}
+
+.uv-badge {
+  display: inline-block;
+  padding: 0.1rem 0.6rem;
+  border-radius: 0.25rem;
+  font-weight: 600;
+}
+
+.uv-low { background-color: #3ea72d; color: #fff; }
+.uv-moderate { background-color: #fff300; color: #222; }
+.uv-high { background-color: #f18b00; color: #222; }
+.uv-very-high { background-color: #e53210; color: #fff; }
+.uv-extreme { background-color: #b567a4; color: #fff; }
+
+.forecast-deck {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.75rem;
+}
+
+.forecast-card {
   text-align: center;
-  display: inline-flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
+  font-size: 0.9rem;
+}
+
+.forecast-card .weather-icon {
+  margin: 0 auto;
 }
