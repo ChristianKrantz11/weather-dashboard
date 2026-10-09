@@ -1,8 +1,22 @@
-# Weather Dashboard
+<h1 align="center">🌤️ Weather Dashboard</h1>
 
-A browser-based weather dashboard. Search for any city to see its current conditions and a 5-day forecast. Your recent searches are saved so you can pull them up again with one click.
+<p align="center">Search any city for current conditions and a 5-day forecast. Your recent searches stay one click away.</p>
 
-**[Launch Weather Dashboard](https://christiankrantz11.github.io/weather-dashboard/)**
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css&amp;logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&amp;logo=jquery&amp;logoColor=white" alt="jQuery">
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&amp;logo=bootstrap&amp;logoColor=white" alt="Bootstrap">
+  <img src="https://img.shields.io/badge/Moment.js-222222?style=for-the-badge" alt="Moment.js">
+  <img src="https://img.shields.io/badge/OpenWeather_API-EB6E4B?style=for-the-badge" alt="OpenWeather API">
+</p>
+
+<p align="center"><a href="https://christiankrantz11.github.io/weather-dashboard/"><strong>🚀 Live Demo</strong></a></p>
+
+<p align="center"><img src="docs/screenshot.png" alt="Weather Dashboard showing current conditions and a 5-day forecast for Austin" width="850"></p>
+
+<p align="center"><sub>Screenshot rendered with sample weather data.</sub></p>
 
 ## Features
 
@@ -60,11 +74,16 @@ No build step is needed.
 
 ## User Story
 
+<details>
+<summary>Original assignment user story</summary>
+
 ```
 AS A traveler
 I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
 ```
+
+</details>
 
 ## Author
 
